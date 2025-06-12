@@ -1,0 +1,202 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+w ctrl+q",
+		"command": "workbench.action.closeActiveEditor"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "-workbench.action.closeActiveEditor"
+	},
+	{
+		"key": "ctrl+shift+w ctrl+shift+q",
+		"command": "workbench.action.closeEditorsInGroup"
+	},
+	{
+		"key": "ctrl+k w",
+		"command": "-workbench.action.closeEditorsInGroup"
+	},
+	{
+		"key": "ctrl+=",
+		"command": "editor.action.fontZoomIn"
+	},
+	{
+		"key": "ctrl+shift+=",
+		"command": "workbench.action.terminal.fontZoomIn"
+	},
+	{
+		"key": "ctrl+-",
+		"command": "editor.action.fontZoomOut"
+	},
+	{
+		"key": "ctrl+w ctrl+d",
+		"command": "workbench.action.splitEditorRight"
+	},
+	{
+		"key": "ctrl+k ctrl+\\",
+		"command": "-workbench.action.splitEditorRight"
+	},
+	{
+		"key": "ctrl+w ctrl+d",
+		"command": "workbench.action.splitEditorRight",
+		"when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
+	},
+	{
+		"key": "ctrl+w v",
+		"command": "-workbench.action.splitEditorRight",
+		"when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
+	},
+	{
+		"key": "ctrl+w ctrl+a",
+		"command": "workbench.action.splitEditorLeft"
+	},
+	{
+		"key": "ctrl+k ctrl+\\",
+		"command": "-workbench.action.splitEditorLeft"
+	},
+	{
+		"key": "ctrl+w ctrl+s",
+		"command": "workbench.action.splitEditorDown"
+	},
+	{
+		"key": "ctrl+k ctrl+\\",
+		"command": "-workbench.action.splitEditorDown"
+	},
+	{
+		"key": "ctrl+w ctrl+s",
+		"command": "workbench.action.splitEditorDown",
+		"when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
+	},
+	{
+		"key": "ctrl+w s",
+		"command": "-workbench.action.splitEditorDown",
+		"when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
+	},
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "-workbench.action.togglePanel"
+	},
+	{
+		"key": "ctrl+shift+b",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+w ctrl+b",
+		"command": "workbench.action.toggleStatusbarVisibility"
+	},
+	{
+		"key": "shift+enter",
+		"command": "-python.execInREPL",
+		"when": "config.python.REPL.sendToNativeREPL && editorTextFocus && !accessibilityModeEnabled && !isCompositeNotebook && !jupyter.ownsSelection && !notebookEditorFocused && editorLangId == 'python'"
+	},
+	{
+		"key": "shift+enter",
+		"command": "-python.execSelectionInTerminal",
+		"when": "editorTextFocus && !findInputFocussed && !isCompositeNotebook && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "surround.with",
+		"when": "editorHasSelection"
+	},
+	{
+		"key": "ctrl+shift+t",
+		"command": "-surround.with",
+		"when": "editorHasSelection"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "-workbench.action.files.saveAs"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "selectNextSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "selectPrevSuggestion",
+		"when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+	},
+	{
+		"key": "ctrl+shift+-",
+		"command": "workbench.action.terminal.fontZoomOut"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "workbench.panel.chat",
+		"when": "workbench.panel.chat.view.copilot.active"
+	},
+	{
+		"key": "ctrl+alt+i",
+		"command": "-workbench.panel.chat",
+		"when": "workbench.panel.chat.view.copilot.active"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-inlineChat.startWithCurrentLine",
+		"when": "editorFocus && github.copilot.chat.editor.enableLineTrigger && inlineChatHasProvider && !editorReadonly && !inlineChatVisible"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "inlineChat.startWithCurrentLine",
+		"when": "inlineChatHasProvider && !editorReadonly && !inlineChatVisible"
+	},
+	{
+		"key": "ctrl+k i",
+		"command": "-inlineChat.startWithCurrentLine",
+		"when": "inlineChatHasProvider && !editorReadonly && !inlineChatVisible"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "inlineChat.startWithCurrentLine",
+		"when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-inlineChat.startWithCurrentLine",
+		"when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "-workbench.panel.chatEditing",
+		"when": "workbench.panel.chat.view.edits.active"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "inlineChat.start",
+		"when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-inlineChat.start",
+		"when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-extension.vim_ctrl+p",
+		"when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+	},
+	{
+		"key": "ctrl+shift+alt+e",
+		"command": "aichat.fixerrormessage",
+		"when": "(arbitrary function)"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "-aichat.fixerrormessage",
+		"when": "(arbitrary function)"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "composerMode.agent"
+	}
+]

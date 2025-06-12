@@ -1,0 +1,121 @@
+{
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editor.empty.hint": "hidden",
+	"explorer.confirmDelete": false,
+	"terminal.integrated.enableMultiLinePasteWarning": "auto",
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.formatOnPaste": true,
+	"tailwindCSS.classAttributes": ["class", "className", "ngClass", "variants"],
+	"editor.fontVariations": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.external.osxExec": "iTerm.app",
+	"workbench.settings.applyToAllProfiles": [
+		"workbench.colorCustomizations",
+		"editor.fontFamily"
+	],
+	"files.autoSave": "onFocusChange",
+	"eslint.run": "onSave",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.minimap.enabled": false,
+	"editor.lineNumbers": "relative",
+	"editor.lineHeight": 1.75,
+	"terminal.integrated.fontWeightBold": "bold",
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	"window.newWindowProfile": "Default",
+	// "editor.fontLigatures": "'  'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
+	"editor.fontLigatures": true,
+	"editor.cursorBlinking": "expand",
+	"vscode-neovim.compositeKeys": {},
+	"workbench.activityBar.location": "hidden",
+	"window.systemColorTheme": "auto",
+	"zenMode.centerLayout": false,
+	"workbench.startupEditor": "none",
+	"editor.linkedEditing": true,
+	"surround.custom": {
+		"surround.with.squareBrackets": {
+			"label": "[ ... ]",
+			"description": "Surround content with square brackets",
+			"snippet": "[$TM_SELECTED_TEXT]$0"
+		},
+		"surround.with.singleQuotes": {
+			"label": "' ... '",
+			"description": "Surround content with single quotes",
+			"snippet": "'$TM_SELECTED_TEXT$0'",
+			"languageIds": ["*"]
+		},
+		"surround.with.curlyBraces": {
+			"label": "{ ... }",
+			"description": "Surround content with curly braces",
+			"snippet": "{${TM_SELECTED_TEXT}}$0"
+		},
+		"surround.with.doubleQuotes": {
+			"label": "\" ... \"",
+			"description": "Surround content with double quotes",
+			"snippet": "\"$TM_SELECTED_TEXT$0\"",
+			"languageIds": ["*"]
+		},
+		"surround.with.parentheses": {
+			"label": "( ... )",
+			"description": "Surround content with parentheses",
+			"snippet": "($TM_SELECTED_TEXT)$0"
+		}
+	},
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"terminal.integrated.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"terminal.integrated.tabs.enableAnimation": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"remote.extensionKind": {
+		"asvetliakov.vscode-neovim": ["workspace"]
+	},
+	"remote.autoForwardPortsSource": "hybrid",
+	"prettier.useTabs": true,
+	"scm.inputFontFamily": "",
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"editor.suggest.showStatusBar": true,
+	"window.customTitleBarVisibility": "auto",
+	"window.titleBarStyle": "custom",
+	"windsurf.autocompleteSpeed": "fast",
+	"windsurf.enableAutocomplete": false,
+	"terminal.integrated.defaultProfile.linux": "fish",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.formatOnSave": true,
+	"svelte.enable-ts-plugin": true,
+	"vsicons.presets.jsonOfficial": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.fontSize": 14,
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.lineHeight": 1.75,
+	"vscode-neovim.useWSL": true,
+	"vscode-neovim.afterInitConfig": ["set ignorecase"],
+	"windsurf.autoExecutionPolicy": "off",
+	"window.commandCenter": false,
+	"terminal.integrated.fontLigatures.enabled": true,
+	"workbench.productIconTheme": "fluent-icons",
+	"cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+	// "editor.fontFamily": "BlexMono Nerd Font Mono",
+	"editor.fontFamily": "JetBrainsMono NF",
+	"explorer.confirmPasteNative": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"git.autofetch": true,
+	"workbench.iconTheme": "vscode-great-icons",
+	"workbench.colorTheme": "Monokai"
+}
