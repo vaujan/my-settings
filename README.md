@@ -1,5 +1,5 @@
 # my-settings
-My VS Code keybindings and settings⌨️✌️
+My VS Code keybindings and settings (with Vim Motion btw)⌨️✌️
 
 ## List of extensions:
 - asvetliakov.vscode-neovim (btw)
