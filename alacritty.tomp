@@ -1,0 +1,28 @@
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["--login"]
+
+[font]
+size = 13.0 # Set your desired font size
+offset.y = 4
+
+[font.normal]
+family = "JetBrainsMono Nerd Font" # Replace with your exact font name
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[window]
+opacity = 0.8
+blur = true
+decorations = "transparent" #
